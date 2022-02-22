@@ -24,6 +24,7 @@ public class ex5{
 			System.out.println("Without Discount : "+a);
 			System.out.println("Discount : 0");
 			System.out.println("With Discount : "+a);
+			
 		}
 	}
 }
