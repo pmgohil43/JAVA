@@ -1,6 +1,6 @@
 //Access Specifiers
 
-public class a
+class a
 {
 	void aa()
 	{
