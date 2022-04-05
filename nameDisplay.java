@@ -20,6 +20,7 @@ public class nameDisplay implements ActionListener{
 		jb = new JButton("First Name");
 		jb1 = new JButton("Last Name");
 		jb2 = new JButton("Full Name");
+		//jb2.setBounds(45,85,65,32)//for the no layout
 		
 		jf.add(jl);
 		jf.add(jtf);
