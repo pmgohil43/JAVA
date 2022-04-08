@@ -31,13 +31,13 @@ public class form extends JFrame{
 			jl = new JLabel("Name :");
 			jl.setBounds(10,10,200,30);
 			add(jl);
-			
+			jl.setFont(font);
 			//address label
 			jl2 = new JLabel("Address : ");
 			jl2.setBounds(10,30,200,30);
 			add(jl2);
+			jl2.setFont(font);
 			
-			jl.setFont(font);
 	}
 	public void iterate(){
 		for(i=0; i<=100; i++)
