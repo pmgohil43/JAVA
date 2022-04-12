@@ -25,18 +25,37 @@ public class form extends JFrame{
 	}
 	public void form(){
 			//font style
-			font = new Font("David",Font.BOLD,20);
+			font = new Font("David",Font.BOLD,15);
 						
 			//name label
 			jl = new JLabel("Name :");
 			jl.setBounds(10,10,200,30);
 			add(jl);
 			jl.setFont(font);
+			
+			//name text field
+			JTextField jtb = new JTextField();
+			jtb.setBounds(70,15,200,18);
+			add(jtb);
+			jtb.setFont(font);
+			
 			//address label
 			jl2 = new JLabel("Address : ");
 			jl2.setBounds(10,30,200,30);
 			add(jl2);
 			jl2.setFont(font);
+			
+			//address textarea
+			JTextArea jta = new JTextArea();
+			jta.setBounds(80,35,200,15);
+			add(jta);
+			jta.setFont(font);
+			
+			//submit button
+			JButton jb = new JButton("Submit");
+			jb.setBounds(10,60,100,20);
+			add(jb);
+			jb.setFont(font);
 			
 	}
 	public void iterate(){
@@ -51,7 +70,7 @@ public class form extends JFrame{
 				e.printStackTrace();
 			}
 		}
-		System.out.println(i);
+		//System.out.println(i);
 		
 		if(i >= 100){
 			jpb.setVisible(false);
